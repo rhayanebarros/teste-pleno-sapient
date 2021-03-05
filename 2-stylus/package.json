@@ -1,0 +1,15 @@
+{
+  "name": "2-stylus",
+  "version": "1.0.0",
+  "description": "Teste front-end Pleno Prodigious BR",
+  "author": "Prodigious BR",
+  "license": "ISC",
+  "scripts": {
+    "css-comp": "node ./npm/run.js stylus -m -c ./src/stylus/output/ --out ./assets/css/",
+    "css-watch": "npm run css-comp -- --watch",
+    "start" : "npm run css-watch"
+  },
+  "devDependencies": {
+    "stylus": "^0.54.8"
+  }
+}

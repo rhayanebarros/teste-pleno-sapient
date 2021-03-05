@@ -1,0 +1,10 @@
+{
+  "name": "3-js",
+  "version": "1.0.0",
+  "description": "Teste front-end Pleno Prodigious BR",
+  "author": "Prodigious BR",
+  "license": "ISC",
+  "scripts": {
+    "start" : "npm run js"
+  }
+}
