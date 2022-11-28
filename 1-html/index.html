@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="format-detection" content="telephone=no" />
+
+    <title>Teste Prodigious - HTML</title>
+    <meta name="description" content="Teste Prodigious - HTML" />
+  </head>
+
+  <body>
+    <!-- Página Completa -->
+    <section class="menu">
+      <div class="menu__content">
+        <nav class="menu__nav">
+          <a href="#">
+            <img src="../1-html/assets/img/menu-btn.jpg" alt="Abrir Menu" />
+          </a>
+          <ul class="menu__nav--links">
+            <li class="menu__nav--link-item">
+              <a href="#quem-somos" title="Quem Somos">Quem Somos</a>
+            </li>
+
+            <li class="menu__nav--link-item">
+              <a href="#trabalhe-conosco" title="Trabalhe Conosco">Trabalhe Conosco</a>
+            </li>
+
+            <li class="menu__nav--link-item">
+              <a href="#pessoas" title="Pessoas">Pessoas</a>
+            </li>
+
+            <li class="menu__nav--link-item">
+              <a href="#cases" title="Cases">Cases</a>
+            </li>
+          </ul>
+
+          <ul class="menu__nav--socials">
+            <li>
+              <img src="../1-html/assets/img/instagram.svg" alt="Instagram" width="30px" />
+            </li>
+
+            <li>
+              <img src="../1-html/assets/img/facebook.svg" alt="Facebook" width="20px" />
+            </li>
+
+            <li>
+              <img src="../1-html/assets/img/linkedin.svg" alt="Linkedin" width="30px" />
+            </li>
+
+            <li>
+              <img src="../1-html/assets/img/medium.svg" alt="Medium" width="30px" />
+            </li>
+          </ul>
+        </nav>
+
+        <div class="menu__logo">
+          <img src="../1-html/assets/img/logo.svg" alt="Logo" width="100px" />
+        </div>
+
+        <div class="menu__search">
+          <a href="#">
+            <img src="../1-html/assets/img/lupa.jpg" alt="Pesquisar" />
+          </a>
+          <input type="search" id="search__input" name="search__input" placeholder="Digite o que deseja buscar" />
+        </div>
+      </div>
+    </section>
+
+    <section class="container">
+      <h1 class="container__title">Olá mundo!</h1>
+      <h3 class="container__description">
+        Lorem ipsum dolor sit amet, consectetuer
+        <a class="container__link" href="https://www.google.com/" target="_blank" title="adipiscing elit"> adipiscing elit</a>, sed diam nonummy nibh euismod tincidunt ut laoreet dolore
+        magna aliquam erat volutpat. Ut wisi enim ad minim
+      </h3>
+    </section>
+
+    <section class="video">
+      <video controls>
+        <source src="../1-html/assets/video/video.mp4" type="video/mp4" />
+      </video>
+    </section>
+
+    <section class="blockquote">
+      <blockquote>"LOREM IPSUM DOLOR SIT AMET, CONSECTETUER VOLUTPAT. UT."</blockquote>
+    </section>
+
+    <hr />
+
+    <section class="galery">
+      <h2>Galeria de Imagens</h2>
+      <div class="galery__carousel">
+        <img src="../1-html/assets/img/imagem-1.png" alt="imagem 1" width="200px" />
+      </div>
+    </section>
+
+    <hr />
+
+    <section class="faq">
+      <div class="faq__content">
+        <div class="faq__item">
+          <p class="faq__question" data-content="question">LOREM IPSUM DOLOR SIT</p>
+          <p class="faq__answer" data-content="answer"> Lorem ipsum dolor sit amet, consectetuer erat volutpat. Ut wisi enim ad minim </p>
+        </div>
+      </div>
+
+      <div class="faq__content">
+        <div class="faq__item">
+          <p class="faq__question" data-content="question">LOREM IPSUM DOLOR SIT</p>
+          <p class="faq__answer" data-content="answer"> Lorem ipsum dolor sit amet, consectetuer erat volutpat. Ut wisi enim ad minim </p>
+        </div>
+      </div>
+
+      <div class="faq__content">
+        <div class="faq__item">
+          <p class="faq__question" data-content="question">LOREM IPSUM DOLOR SIT</p>
+          <p class="faq__answer" data-content="answer"> Lorem ipsum dolor sit amet, consectetuer erat volutpat. Ut wisi enim ad minim </p>
+        </div>
+      </div>
+
+      <div class="faq__content">
+        <div class="faq__item">
+          <p class="faq__question" data-content="question">LOREM IPSUM DOLOR SIT</p>
+          <p class="faq__answer" data-content="answer"> Lorem ipsum dolor sit amet, consectetuer erat volutpat. Ut wisi enim ad minim </p>
+        </div>
+      </div>
+
+      <div class="faq__content">
+        <div class="faq__item">
+          <p class="faq__question" data-content="question">LOREM IPSUM DOLOR SIT</p>
+          <p class="faq__answer" data-content="answer"> Lorem ipsum dolor sit amet, consectetuer erat volutpat. Ut wisi enim ad minim </p>
+        </div>
+      </div>
+    </section>
+
+    <hr />
+
+    <section class="partners">
+      <h2>Parceiros</h2>
+      <div class="partners__carousel">
+        <div class="partners__carousel--item">
+          <img src="../1-html/assets/img/imagem-2.png" alt="Imagem 2" />
+          <p> Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam </p>
+          <a href="#" target="_blank" title="Conheça mais">Conheça mais</a>
+        </div>
+      </div>
+    </section>
+
+    <hr />
+
+    <section class="contact">
+      <h2>Entre em contato</h2>
+
+      <form id="contact__form" autocomplete="off" method="GET">
+        <div class="contact__form--field">
+          <label for="name-field">Nome:</label>
+          <input type="text" id="name-field" name="name-field" />
+        </div>
+
+        <div class="contact__form--field">
+          <label for="email-field">E-Mail:</label>
+          <input type="email" id="email-field" name="email-field" />
+        </div>
+
+        <div class="contact__form--field">
+          <label for="number-phone-field">Telefone:</label>
+          <input type="telefone" id="number-phone-field" name="number-phone-field" />
+        </div>
+
+        <div class="contact__form--field">
+          <label for="mensage-field">Mensagem:</label>
+          <textarea name="mensage-field" id="mensage-field" cols="30" rows="5"></textarea>
+        </div>
+
+        <div class="contact__form--button">
+          <button aria-label="enviar">Enviar</button>
+        </div>
+      </form>
+    </section>
+
+    <hr />
+
+    <section class="footer">
+      <div class="footer__content">
+        <p>Av. Dr. Figueiredo Mascarenhas, 94</p>
+        <p>Tres Vendas, Pelotas - RS</p>
+        <a href="tel:+555396055510" title="96055-510">96055-510</a>
+        <a href="tel:+55533030-3030" title="3030-3030">3030-3030</a>
+
+        <div class="footer__links">
+          <a href="#" target="_blank" title="Vagas">Vagas</a>
+          <a href="#" target="_blank" title="Cases">Cases</a>
+          <a href="#" target="_blank" title="Sitemap">Sitemap</a>
+        </div>
+      </div>
+    </section>
+
+    <br />
+    <br />
+
+    <!-- Menu -->
+    <!-- <section id="menu">
+      <nav class="menu__nav">
+        <ul class="menu__nav--links">
+          <li class="menu__nav--link-item">
+            <a href="#quem-somos" title="Quem Somos">Quem Somos</a>
+          </li>
+
+          <li class="menu__nav--link-item">
+            <a href="#trabalhe-conosco" title="Trabalhe Conosco">Trabalhe Conosco</a>
+          </li>
+
+          <li class="menu__nav--link-item">
+            <a href="#pessoas" title="Pessoas">Pessoas</a>
+          </li>
+
+          <li class="menu__nav--link-item">
+            <a href="#cases" title="Cases">Cases</a>
+          </li>
+        </ul>
+
+        <ul class="menu__nav--socials">
+          <li>
+            <img src="../1-html/assets/img/instagram.svg" alt="Instagram" width="30px" />
+          </li>
+
+          <li>
+            <img src="../1-html/assets/img/facebook.svg" alt="Facebook" width="20px" />
+          </li>
+
+          <li>
+            <img src="../1-html/assets/img/linkedin.svg" alt="Linkedin" width="30px" />
+          </li>
+
+          <li>
+            <img src="../1-html/assets/img/medium.svg" alt="Medium" width="30px" />
+          </li>
+        </ul>
+      </nav>
+    </section> -->
+
+    <!-- Search -->
+    <!-- <section id="search">
+      <input type="search" id="search__input" name="search__input" placeholder="Digite o que deseja buscar" />
+    </section> -->
+  </body>
+</html>
