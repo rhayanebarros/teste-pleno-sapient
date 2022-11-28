@@ -19,5 +19,8 @@ $RECYCLE.BIN/
 2-css/node_modules/
 2-css/assets/css/
 
+node_modules
+package-lock.json
+
 !.gitignore
 !.gitkeep
