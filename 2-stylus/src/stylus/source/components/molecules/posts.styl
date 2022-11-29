@@ -1,7 +1,15 @@
 #sidebar
-
   .posts
-    margin 79px 0 0 
+    margin 79px 0 0
+
+    @media screen and (max-width: 1439px)
+      margin 51.65px auto 0
+      max-width 768px
+      width 100%
+      display flex
+      flex-wrap wrap
+      justify-content space-between
+
     span
       display block
       max-width 410px
@@ -10,11 +18,19 @@
       margin 0 0 54px
       position relative
       padding 0 0 33px
+
+      @media screen and (max-width: 1439px)
+        max-width 374.5px
+        margin 0 0 24px
     
     .header
       position absolute
       top 0
       left calc(75px + 28px)
+
+      @media screen and (max-width: 1439px)
+        left calc(75px + 29.58px)
+
       span
         margin 0
         border-bottom none
@@ -25,6 +41,9 @@
         display block
         max-width 298px
         width 100%
+
+        @media screen and (max-width: 1439px)
+          max-width 261px
 
         a
           color #3C3B3B
@@ -48,5 +67,4 @@
     
     .image
       img
-        max-width 75px
-        width 100%
+        width 75px

@@ -3,6 +3,14 @@
   .mini-posts
     max-width 409.5px
     width 100%
+
+    @media screen and (max-width: 1439px)
+      max-width 768px
+      display flex
+      flex-wrap wrap
+      justify-content space-between
+      margin: 0 auto
+
     .mini-post
       border 1px solid #EEEEEE
       background-color #FFFFFF
@@ -10,6 +18,10 @@
       margin 0 0 40px
       height 296px
       position relative
+      width 100%
+
+      @media screen and (max-width: 1439px)
+        max-width 373px
 
       .header
         position absolute
