@@ -1,5 +1,4 @@
 #sidebar
-
   .mini-posts
     max-width 409.5px
     width 100%
@@ -10,6 +9,12 @@
       flex-wrap wrap
       justify-content space-between
       margin: 0 auto
+
+    @media screen and (max-width: 767px)
+      max-width: 375px
+
+    @media screen and (max-width: 374px)
+      max-width 319px
 
     .mini-post
       border 1px solid #EEEEEE
@@ -23,6 +28,12 @@
       @media screen and (max-width: 1439px)
         max-width 373px
 
+      @media screen and (max-width: 639px)
+        margin: 0 0 30px
+      
+      @media screen and (max-width: 374px)
+        max-width 319px
+
       .header
         position absolute
         left 23px
@@ -33,6 +44,9 @@
           display block
           max-width 292px
           width 100%
+
+          @media screen and (max-width: 374px)
+            max-width: 230px
 
           a
             color #3C3B3B
