@@ -4,11 +4,19 @@
       a
         border-left 1px solid #EEEEEE
         padding-left 30px
-        padding-top 26px
+        padding-top 23px
         position absolute
         right 24px
         top 0
-        height calc(100% - 26px)
+        height calc(100% - 23px)
+        font-size: 0
 
         @media screen and (max-width: 1023px)
           right 30px
+        
+        &:before
+          content: ''
+          background-image url('../img/icon-menu.jpg')
+          width 20px
+          height 20px
+          display block
