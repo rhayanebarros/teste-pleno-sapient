@@ -1,1 +1,2 @@
-console.log('teste2');
+import { openMenu } from "../components/openMenu";
+openMenu();
