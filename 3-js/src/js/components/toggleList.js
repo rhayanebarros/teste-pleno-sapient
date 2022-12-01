@@ -1,5 +1,5 @@
 function toggleList() {
-  document.querySelectorAll('.item')
+  document.querySelectorAll('.accordion .item')
     .forEach(item => item.addEventListener('click', function(event) {
       event.target.parentElement.classList.toggle('-active');
     }));
