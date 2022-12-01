@@ -10,7 +10,6 @@ function modal() {
   }
 
   trigger.addEventListener("click", toggleModal);
-  closeButton.addEventListener("click", toggleModal);
-  
+  closeButton.addEventListener("click", toggleModal);  
 }
 export { modal };
